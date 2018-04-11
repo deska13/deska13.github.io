@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	font-family: Podkova;
+	background-color: #cce0dd;
+}
+
+header{
+	background-color:#869b62;
+}
+
+button{
+	font-size: 16px;
+	font-weight: 700;
+	width: 160px;
+	border: none;
+	background-color: #deeae3;
+	height: 50px;
+	user-select: none;
+	outline: 0px;
+	cursor: pointer;
+}
+
+.colors{
+	background-color: #869b62;
+	padding: 15px;
+}
+
+.col-2{
+	font-size: 18px;
+	height: 50px;
+}
+
+@media (max-width: 1080px){
+	button{
+		width: 130px;
+		text-align: 14px;
+	}
+}
+
+@media (max-width: 992px){
+	button{
+		width: 210px;
+	}
+}
+
+@media (max-width: 768px){
+	.image-header {
+		display: none;
+	}
+	header h1{
+		padding-bottom: 20px;
+	}
+	header p{
+		display: none;
+	}
+	button {
+		height: 40px;
+		width: 240px;
+		text-align: 10px;
+	}
+}
